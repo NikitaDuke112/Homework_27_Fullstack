@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner__slider {
+
+}
+
+.banner__control {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.banner__button {
+    width: 100px;
+    height: 25px;
+}
+
+.banner__dot {
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.active .banner__dot {
+    opacity: 1;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+
+    padding: 0px;
+}
+
+.dots li {
+    width: 10px;
+    height: 10px;
+}
